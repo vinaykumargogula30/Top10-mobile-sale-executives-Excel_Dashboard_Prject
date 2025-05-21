@@ -1,0 +1,47 @@
+Sub SlicerConnection()
+If Sheet1.Range("A1").Value = True Then
+
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.AddPivotTable ( _
+        ActiveSheet.PivotTables("PivotTable34"))
+Else
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.RemovePivotTable ( _
+        ActiveSheet.PivotTables("PivotTable34"))
+        
+End If
+If Sheet1.Range("D1").Value = True Then
+
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.AddPivotTable ( _
+        ActiveSheet.PivotTables("PivotTable35"))
+Else
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.RemovePivotTable ( _
+        ActiveSheet.PivotTables("PivotTable35"))
+        
+End If
+If Sheet1.Range("G1").Value = True Then
+
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.AddPivotTable ( _
+        ActiveSheet.PivotTables("PivotTable36"))
+Else
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.RemovePivotTable ( _
+        ActiveSheet.PivotTables("PivotTable36"))
+        
+End If
+If Sheet1.Range("J1").Value = True Then
+
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.AddPivotTable ( _
+        ActiveSheet.PivotTables("PivotTable37"))
+Else
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.RemovePivotTable ( _
+        ActiveSheet.PivotTables("PivotTable37"))
+        
+End If
+
+End Sub
